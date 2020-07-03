@@ -59,3 +59,43 @@ it is distributed, scalable and extensible.
 
  ## How does it compare to existing software ?
 A quick google search shows many softwares which perform some of the tasks Vault can do, but i could not find single software/tool which can do all the tasks Vault can. This is why I called it as Swissarmy knife :).
+
+
+
+## Some more info
+### Vault
+- stores long lived static secrets
+- dynamically generate secrets
+- can act as Root Cert Authority
+- Provide Encryption as a Service
+- Extensible
+
+
+### Used to
+- centralize secrets across the org
+- increase security by removing long-lived secrets/creds
+- provides Encryption as a service for org
+- Automate PKI process.
+
+## Features available in OpenSource and Enterprise editions
+### Open Source
+- Dynamic Secrets
+- ACL Templates
+- Vault Agent (helps in caching)
+- Key Rolling
+- Policies
+- EaaS
+- Cloud Auto Unseal
+- init and Unseal
+
+
+### Enterprise feature
+- Namespaces 
+- DR
+- Replication
+- Read Replicas
+- HSM Auto-Unseal
+- MFA
+- Sentinel
+- Seal wrap
+- FIPS 140-2
