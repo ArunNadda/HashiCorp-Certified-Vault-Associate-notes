@@ -5,7 +5,7 @@ An all-in-one-place collection of information required to pass HashiCorp-Certifi
 ### I will add following topics about Vault in this repo. It may take some time to complete all of these though.
 
 1. Vault Architecture
-2. Data in vault
+2. Security of Data in vault
 3. Vault Deployment
 4. Vault Configuration
 5. Vault access - CLI, GUI and API
