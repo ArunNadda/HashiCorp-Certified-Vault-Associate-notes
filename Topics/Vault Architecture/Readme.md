@@ -52,13 +52,42 @@ In this picture, There is a clear separation of components that are inside or ou
     - After the Vault is unsealed, requests can be processed from the HTTP API to the **Core**. The core is used to manage the flow of requests through the system, enforce ACLs, and ensure audit logging is done.
 
 
+
+**Storage Backends**
+- location where Vault can store persistent data  
+- defined in configuration file of Vault  
+- various parameters can be used in config file for storage Backends  
+- Multiple storage backends can be used  
+    - some provides HA  
+    - some provide better data protection  
+    - Supported from HashiCorp (when using Ent)  
+           - File/s
+           - consul
+           - raft
+
+
+**Secrets Engines**
+- store secrets (kv,..)  
+- generate secrets (aws, azure,..)  
+- encrypt data (pki, transit,..)  
+- can enable multiple secret engines as needed  
+- Secret Engines are isolated at specific path  
+    - paths make possible to use same engine twice e.g. kv secret engine can be used multiple times at different paths.  
+    - can interact with path by specifying full path.  
+
+
 **Auth Methods**
-When a client first connects to Vault, it needs to authenticate. 
-    - Vault provides configurable auth methods providing flexibility in the authentication mechanism used. 
-    - **Human friendly mechanisms** such as **username/password** or **GitHub** might be used for operators 
-    - **applications** may use **public/private keys** or **tokens** to authenticate. 
-    - An authentication request flows through core and into an auth method, which determines if the request is valid and returns a list of associated policies.
-    - multiple auth methods can be used at any given time.
+When a client first connects to Vault, it needs to authenticate.   
+- perform authentication to Vault  
+- assign identity and policies to user/app  
+- multiple can be enabled  
+- once authenticated, vault uses **token** for subsequent requests.  
+- **default auth method is _token_ **  
+- Vault provides configurable auth methods providing flexibility in the authentication mechanism used. 
+- **Human friendly mechanisms** such as **username/password** or **GitHub** might be used for operators 
+- **applications** may use **public/private keys** or **tokens** to authenticate. 
+- An authentication request flows through core and into an auth method, which determines if the request is valid and returns a list of associated policies.
+- multiple auth methods can be used at any given time.
  
 
 **Policies**
