@@ -15,4 +15,4 @@ https://www.vaultproject.io/docs/concepts/policies.html#capabilities
 
 ### 2d. Craft a Vault policy based on requirements
 https://learn.hashicorp.com/vault/getting-started/policies#writing-the-policy  
-https://www.katacoda.com/hashicorp/scenarios/vault-policies
+https://www.katacoda.com/hashicorp/scenarios/vault-policies - hands-on
