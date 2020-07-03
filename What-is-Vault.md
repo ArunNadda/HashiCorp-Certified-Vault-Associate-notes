@@ -71,7 +71,7 @@ A quick google search shows many softwares which perform some of the tasks Vault
 - Extensible
 
 
-### Used to
+### can be Used to
 - centralize secrets across the org
 - increase security by removing long-lived secrets/creds
 - provides Encryption as a service for org
