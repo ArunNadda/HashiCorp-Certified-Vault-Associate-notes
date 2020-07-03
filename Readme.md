@@ -13,5 +13,5 @@ An all-in-one-place collection of information required to pass HashiCorp-Certifi
 7. Secret Engines
 8. Vault Auditing
 9. Vault HA/DR
-10 Enterprise Vault Features
-
+10. Enterprise Vault Features
+11. **Bonus - Exam practice questions**
