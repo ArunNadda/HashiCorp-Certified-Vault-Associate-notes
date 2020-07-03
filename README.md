@@ -6,10 +6,12 @@ An all-in-one-place collection of information required to pass HashiCorp-Certifi
 
 ## details about exam can be found at https://www.hashicorp.com/certification/vault-associate/
 
-### here is summary of exam objectives- For the Hashicorp Vault exam, there are 10 objectives. I will go through each objective which shall help everyone study and prepare for the exam.
+#### here is summary of exam objectives- For the Hashicorp Vault exam, there are 10 objectives. I will go through each objective which shall help everyone study and prepare for the exam.
 
 
-### Exam format
+
+## Exam format
+
    | Name | details |
    | ---------------- | ---------------- |
    | Assessment Type	| Multiple choice |
@@ -22,80 +24,80 @@ An all-in-one-place collection of information required to pass HashiCorp-Certifi
 
 ## Exam Objectives
 
-###|1|  Compare authentication methods|
-|---|---|
-|1a|  Describe authentication methods|
-|1b|  Choose an authentication method based on use case|
-|1c|  Differentiate human vs. system auth methods|
+  | 1 |   Compare authentication methods |
+ | --- | --- |
+ | 1a |   Describe authentication methods |
+ | 1b |   Choose an authentication method based on use case |
+ | 1c |   Differentiate human vs. system auth methods |
 
-###|2|  Create Vault policies|
-|---|---|
-|2a|  Illustrate the value of Vault policy|
-|2b|  Describe Vault policy syntax: path|
-|2c|  Describe Vault policy syntax: capabilities|
-|2d|  Craft a Vault policy based on requirements|
+ | 2 |   Create Vault policies |
+ | --- | --- |
+ | 2a |   Illustrate the value of Vault policy |
+ | 2b |   Describe Vault policy syntax: path |
+ | 2c |   Describe Vault policy syntax: capabilities |
+ | 2d |   Craft a Vault policy based on requirements |
 
-###|3|  Assess Vault tokens|
-|---|---|
-|3a|  Describe Vault token|
-|3b|  Differentiate between service and batch tokens. Choose one based on use-case|
-|3c|  Describe root token uses and lifecycle|
-|3d|  Define token accessors|
-|3e|  Explain time-to-live|
-|3f|  Explain orphaned tokens|
-|3g|  Create tokens based on need|
+ | 3 |   Assess Vault tokens |
+ | --- | --- |
+ | 3a |   Describe Vault token |
+ | 3b |   Differentiate between service and batch tokens. Choose one based on use-case |
+ | 3c |   Describe root token uses and lifecycle |
+ | 3d |   Define token accessors |
+ | 3e |   Explain time-to-live |
+ | 3f |   Explain orphaned tokens |
+ | 3g |   Create tokens based on need |
 
-###|4|  Manage Vault leases|
-|---|---|
-|4a|  Explain the purpose of a lease ID|
-|4b|  Renew leases|
-|4c|  Revoke leases|
+ | 4 |   Manage Vault leases |
+ | --- | --- |
+ | 4a |   Explain the purpose of a lease ID |
+ | 4b |   Renew leases |
+ | 4c |   Revoke leases |
 
-###|5|  Compare and configure Vault secrets engines|
-|---|---|
-|5a|  Choose a secret method based on use case|
-|5b|  Contrast dynamic secrets vs. static secrets and their use cases|
-|5c|  Define transit engine|
-|5d|  Define secrets engines|
+ | 5 |   Compare and configure Vault secrets engines |
+ | --- | --- |
+ | 5a |   Choose a secret method based on use case |
+ | 5b |   Contrast dynamic secrets vs. static secrets and their use cases |
+ | 5c |   Define transit engine |
+ | 5d |   Define secrets engines |
 
-###|6|  Utilize Vault CLI|
-|---|---|
-|6a|  Authenticate to Vault|
-|6b|  Configure authentication methods|
-|6c|  Configure Vault policies|
-|6d|  Access Vault secrets|
-|6e|  Enable Secret engines|
-|6f|  Configure environment variables|
+ | 6 |   Utilize Vault CLI |
+ | --- | --- |
+ | 6a |   Authenticate to Vault |
+ | 6b |   Configure authentication methods |
+ | 6c |   Configure Vault policies |
+ | 6d |   Access Vault secrets |
+ | 6e |   Enable Secret engines |
+ | 6f |   Configure environment variables |
 
-###|7|  Utilize Vault UI|
-|---|---|
-|7a|  Authenticate to Vault|
-|7b|  Configure authentication methods|
-|7c|  Configure Vault policies|
-|7d|  Access Vault secrets|
-|7e|  Enable Secret engines|
+ | 7 |   Utilize Vault UI |
+ | --- | --- |
+ | 7a |   Authenticate to Vault |
+ | 7b |   Configure authentication methods |
+ | 7c |   Configure Vault policies |
+ | 7d |   Access Vault secrets |
+ | 7e |   Enable Secret engines |
 
-###|8|  Be aware of the Vault API|
-|---|---|
-|8a|  Authenticate to Vault via Curl|
-|8b|  Access Vault secrets via Curl|
+ | 8 |   Be aware of the Vault API |
+ | --- | --- |
+ | 8a |   Authenticate to Vault via Curl |
+ | 8b |   Access Vault secrets via Curl |
 
-###|9|  Explain Vault architecture|
-|---|---|
-|9a|  Describe the encryption of data stored by Vault|
-|9b|  Describe cluster strategy|
-|9c|  Describe storage backends|
-|9d|  Describe the Vault agent|
-|9e|  Describe secrets caching|
-|9f|  Be aware of identities and groups|
-|9g|  Describe Shamir secret sharing and unsealing|
-|9h|  Be aware of replication|
-|9i|  Describe seal/unseal|
-|9j|  Explain response wrapping|
-|9k|  Explain the value of short-lived, dynamically generated secrets|
+ | 9 |   Explain Vault architecture |
+ | --- | --- |
+ | 9a |   Describe the encryption of data stored by Vault |
+ | 9b |   Describe cluster strategy |
+ | 9c |   Describe storage backends |
+ | 9d |   Describe the Vault agent |
+ | 9e |   Describe secrets caching |
+ | 9f |   Be aware of identities and groups |
+ | 9g |   Describe Shamir secret sharing and unsealing |
+ | 9h |   Be aware of replication |
+ | 9i |   Describe seal/unseal |
+ | 9j |   Explain response wrapping |
+ | 9k |   Explain the value of short-lived, dynamically generated secrets |
 
-###|10|  Explain encryption as a service|
-|---|---|
-|10a|  Configure transit secret engine|
-|10b|  Encrypt and decrypt secrets|
-|10c|  Rotate the encryption key|
+ | 10 |   Explain encryption as a service |
+ | --- | --- |
+ | 10a |   Configure transit secret engine |
+ | 10b |   Encrypt and decrypt secrets |
+ | 10c |   Rotate the encryption key |
