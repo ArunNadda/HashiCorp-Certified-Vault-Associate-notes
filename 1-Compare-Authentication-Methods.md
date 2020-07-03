@@ -2,7 +2,7 @@
 ## Reference Materials:
 
 ### 1a. Describe authentication methods
-https://www.vaultproject.io/docs/auth/index.html
+https://www.vaultproject.io/docs/auth/index.html  
 https://www.vaultproject.io/docs/concepts/auth.html
 
 
