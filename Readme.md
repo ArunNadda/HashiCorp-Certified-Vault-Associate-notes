@@ -1,13 +1,13 @@
 ## HashiCorp-Certified-Vault-Associate-notes-learning-material
 An all-in-one-place collection of information required to pass HashiCorp-Certified-Vault-Associate. These notes could be used as a start to learn vault and also as a revision of all learnings before sitting for the certification exam.
 
-### [Learning Resources](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Resources) can be found here.
+### 1. [Learning Resources](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Resources) can be found here.
 
-### Details about [Exam](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/blob/master/About-Exam.md) are here.
+### 2. Details about [Exam](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/blob/master/About-Exam.md) are here.
 
-### Brief intro to [Vault](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/blob/master/What-is-Vault.md)
+### 3. Brief intro to [Vault](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/blob/master/What-is-Vault.md)
 
-### I will add following topics about Vault in this repo. It may take some time to complete all of these though.
+### 4. I will add following topics about Vault in this repo. It may take some time to complete all of these though.
 
 1. Vault Architecture
 2. Security of Data in vault
