@@ -1,9 +1,3 @@
-## HashiCorp-Certified-Vault-Associate-notes-learning-material
-An all-in-one-place collection of information required to pass HashiCorp-Certified-Vault-Associate. These notes could be used as a start to learn vault and also as a revision of all learnings before sitting for the certification exam.
-
-
-
-
 ## details about exam can be found at https://www.hashicorp.com/certification/vault-associate/
 
 #### here is summary of exam objectives- For the Hashicorp Vault exam, there are 10 objectives. I will go through each objective which shall help everyone study and prepare for the exam.
