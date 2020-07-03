@@ -3,21 +3,21 @@
 Vault is a complex system that has many different modules working together. lets learn about basic terms used in Vault.
 
 
-**Storage Backend** - A storage backend is responsible for durable storage of encrypted data. 
-**Barrier** - The barrier is cryptographic seal around the Vault. It ensures that only encrypted data is written out, and that data is verified and decrypted on the way in
-**Secrets Engine** -  is responsible for managing secrets. There are many different types of Secrets engines available in Vault. Simple one is "kv".
-**Audit Devices** - used to manage audit logs.
-**Auth Method** - used to authenticate users/applications connecting to Vault.
-    - once authenticated, Auth Method returns the list of applicable policies which should be applied
-    - Vault takes an authenticated user and returns a client token that can be used for future requests
-**Policies** - Authenticated users get authorisation to perform different tasks using policies. Policies decide permissions to users/application on path.
-**Path** - every object stored in Vault has a path. this makes is easier to apply policies at different levels inside path.
-**Client Token** - A client token (aka "Vault Token") is conceptually similar to a session cookie on a web site
-**Secret** - A secret is the term for anything returned by Vault which contains confidential or cryptographic material.
-**Server** - Vault depends on a long-running instance which operates as a server
-    - provides API which clients interact with and manages the interaction between all the secrets engines ACL enforcement, and secret lease revocation	
+**Storage Backend** - A storage backend is responsible for durable storage of encrypted data.   
+**Barrier** - The barrier is cryptographic seal around the Vault. It ensures that only encrypted data is written out, and that data is verified and decrypted on the way in  
+**Secrets Engine** -  is responsible for managing secrets. There are many different types of Secrets engines available in Vault. Simple one is *kv*.   
+**Audit Devices** - used to manage audit logs.  
+**Auth Method** - used to authenticate users/applications connecting to Vault.  
+    - once authenticated, Auth Method returns the list of applicable policies which should be applied  
+    - Vault takes an authenticated user and returns a client token that can be used for future requests  
+**Policies** - Authenticated users get authorisation to perform different tasks using policies. Policies decide permissions to users/application on path.  
+**Path** - every object stored in Vault has a path. this makes is easier to apply policies at different levels inside path.  
+**Client Token** - A client token (aka "Vault Token") is conceptually similar to a session cookie on a web site  
+**Secret** - A secret is the term for anything returned by Vault which contains confidential or cryptographic material.  
+**Server** - Vault depends on a long-running instance which operates as a server  
+    - provides API which clients interact with and manages the interaction between all the secrets engines ACL enforcement, and secret lease revocation	  
 
-
+  
 
 ## High Level Overview:
 
