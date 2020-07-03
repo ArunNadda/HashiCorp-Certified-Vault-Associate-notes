@@ -2,7 +2,7 @@ Before diving deep into Vault, we should get answer to some basic questions like
 
 - what is Vault? 
 - what problems can it solve?
-- how it compares to existing software ?
+- how does it compares to existing software ?
 
   
     
@@ -35,7 +35,7 @@ it is distributed, scalable and extensible.
     
     
    
-## what problems can it solve? - Use Cases.
+## What problems does it solve? - Use Cases.
 ### Key usecases of Vault ( There are multitude number of UseCases of vault)
 
 - At a bare minimum, Vault can be used for the storage of any secrets. 
@@ -54,5 +54,5 @@ it is distributed, scalable and extensible.
        
    
 
- ## how it compares to existing software ?
+ ## How does it compare to existing software ?
 A quick google search shows many softwares which perform some of the tasks Vault can do, but i could not find single software/tool which can do all the tasks Vault can. This is why I called it as Swissarmy knife :).
