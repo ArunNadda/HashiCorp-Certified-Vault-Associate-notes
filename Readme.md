@@ -9,14 +9,14 @@ An all-in-one-place collection of information required to pass HashiCorp-Certifi
 
 ### 4. I will add following topics about Vault in this repo. It may take some time to complete all of these though.
 
-1. Vault Architecture
-2. Security of Data in vault
-3. Vault Deployment
-4. Vault Configuration
-5. Vault access - CLI, GUI and API
-6. Vault policies
-7. Secret Engines
-8. Vault Auditing
-9. Vault HA/DR
-10. Enterprise Vault Features
-11. **Bonus - Exam practice questions**
+1. [Vault Architecture](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20Architecture)
+2. [Security of Data in vault](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/DataSecurity)
+3. [Vault Deployment](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20Deployment)
+4. [Vault Configuration](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20Configuration)
+5. [Vault access - CLI, GUI and API](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20access)
+6. [Vault policies](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20policies)
+7. [Secret Engines](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Secret%20Engines)
+8. [Vault Auditing](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20Auditing)
+9. [Vault HA/DR](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20HA-DR)
+10. [Enterprise Vault Features](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Enterprise%20Vault%20Features)
+11. [**Bonus - Exam practice questions**](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Bonus%20-%20Exam%20practice%20questions)
