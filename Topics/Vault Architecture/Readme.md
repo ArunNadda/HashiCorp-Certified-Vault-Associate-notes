@@ -44,7 +44,7 @@ In this picture, There is a clear separation of components that are inside or ou
 
 - Once Started, the Vault is in a **sealed** state. To perform any kind of operations, it must be unsealed by providing the unseal keys. 
     - During initialization an encryption key is created, which is used to protect all the data in Vault. 
-    - This encryption key is protected by a **master** key. By default, Vault uses a technique known as **Shamir's secret sharing algorithm** to split the master key into 5 shares, with a threshold of 3 required to reconstruct the master key.
+    - This encryption key is protected by a **master** key. By default, Vault uses a technique known as [**Shamir's secret sharing algorithm**](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) to split the master key into 5 shares, with a threshold of 3 required to reconstruct the master key.
     - The number of shares and the minimum threshold required can both be specified. 
     - Shamir's technique can be disabled, and the master key used directly for unsealing. 
     - Once Vault retrieves the encryption key, it can decrypt the data in the storage backend, and enters the unsealed state. Once unsealed, Vault loads all of the configured audit devices, auth methods, and secrets engines.
