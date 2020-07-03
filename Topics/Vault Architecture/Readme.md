@@ -1,4 +1,4 @@
-# Vault Architecture
+# Vault Architecture and overview
 
 Vault is a complex system that has many different modules working together. lets learn about basic terms used in Vault.
 
