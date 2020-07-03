@@ -19,6 +19,7 @@ Vault is a Swissarmy knife for securing secrets, data, PKIs ..... Vault is a too
 it is distributed, scalable and extensible.
 
 
+
 ### Vault features 
 
 - key/value secrets can be stored in Vault. Vault encrypts these secrets prior to writing them to persistent storage
@@ -31,8 +32,10 @@ it is distributed, scalable and extensible.
    - Remove the secrets when these are not required.
 - Vault has built-in support for secret revocation. Vault can revoke not only single secrets, but a tree of secrets
    - Remove secrets in scenarios of breaches. all the compromised secrets can be revoked with one command.
-  
-    
+- used to Consolidate Secrets
+- it simplifies Identity and Access Management across clouds and hybrid environemnt
+- Secures data using encryption
+
     
    
 ## What problems does it solve? - Use Cases.
