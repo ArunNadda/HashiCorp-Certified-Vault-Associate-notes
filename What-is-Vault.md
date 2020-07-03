@@ -4,8 +4,10 @@ Before diving deep into Vault, we should get answer to some basic questions like
 - what problems can it solve?
 - how it compares to existing software ?
 
-
-## what is Vault?
+  
+    
+    
+## What is Vault?
 ### Here is definition of Vault by HashiCorp itself -
 
 Vault is a tool for securely accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, or certificates. 
@@ -29,7 +31,9 @@ it is distributed, scalable and extensible.
    - Remove the secrets when these are not required.
 - Vault has built-in support for secret revocation. Vault can revoke not only single secrets, but a tree of secrets
    - Remove secrets in scenarios of breaches. all the compromised secrets can be revoked with one command.
-   
+  
+    
+    
    
 ## what problems can it solve? - Use Cases.
 ### Key usecases of Vault ( There are multitude number of UseCases of vault)
@@ -45,7 +49,9 @@ it is distributed, scalable and extensible.
 - can be used to encrypt/decrypt data that is stored elsewhere.
    - helps in standardizing encryption across teams/org.
    - developers dont need to worry about how to encrypt/decrypt.
-   
+     
+       
+       
    
 
  ## how it compares to existing software ?
