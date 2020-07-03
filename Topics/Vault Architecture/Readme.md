@@ -76,7 +76,7 @@ In this picture, There is a clear separation of components that are inside or ou
     - can interact with path by specifying full path.  
 
 
-**Auth Methods**
+**Auth Methods**  
 When a client first connects to Vault, it needs to authenticate.   
 - perform authentication to Vault  
 - assign identity and policies to user/app  
@@ -90,7 +90,7 @@ When a client first connects to Vault, it needs to authenticate.
 - multiple auth methods can be used at any given time.
  
 
-**Policies**
+**Policies**  
 Policies are named ACL rules. 
     - the **"root"** policy is built-in and *permits access to all resources*. 
     - can create any number of named policies with fine-grained control over paths. 
@@ -100,5 +100,6 @@ Policies are named ACL rules.
     
     
 
-**Lease management** is critical, as it allows expired client tokens or secrets to be revoked automatically. 
+**Lease management**  
+is critical, as it allows expired client tokens or secrets to be revoked automatically. 
 Additionally, Vault handles certain partial failure cases by using write ahead logging with a rollback manager. 
