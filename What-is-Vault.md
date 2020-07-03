@@ -34,4 +34,19 @@ it is distributed, scalable and extensible.
 ## what problems can it solve? - Use Cases.
 ### Key usecases of Vault ( There are multitude number of UseCases of vault)
 
- 
+- At a bare minimum, Vault can be used for the storage of any secrets. 
+   - sensitive environment variables, database credentials, API keys, etc.
+
+- Vault is a good mechanism for storing credentials that employees share to access web services. 
+
+- The "dynamic secrets" feature of Vault is ideal for scripts / apps.
+   - dynamically create db credentials or say AWS access key.
+
+- can be used to encrypt/decrypt data that is stored elsewhere.
+   - helps in standardizing encryption across teams/org.
+   - developers dont need to worry about how to encrypt/decrypt.
+   
+   
+
+ ## how it compares to existing software ?
+A quick google search shows many softwares which perform some of the tasks Vault can do, but i could not find single software/tool which can do all the tasks Vault can. This is why I called it as Swissarmy knife :).
