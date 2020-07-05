@@ -103,3 +103,6 @@ Policies are named ACL rules.
 **Lease management**  
 is critical, as it allows expired client tokens or secrets to be revoked automatically. 
 Additionally, Vault handles certain partial failure cases by using write ahead logging with a rollback manager. 
+
+
+#### Continue to topic 2 [Security of Data in vault](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/DataSecurity)
