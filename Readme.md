@@ -1,5 +1,5 @@
 ## HashiCorp-Certified-Vault-Associate-notes-learning-material
-An all-in-one-place collection of information required to pass HashiCorp-Certified-Vault-Associate. These notes could be used as a start to learn vault and also as a revision of all learnings before sitting for the certification exam.
+These are the notes I used to prepare for Vault Associate exam.
 
 ### 1. [Learning Resources](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Resources) can be found here.
 
