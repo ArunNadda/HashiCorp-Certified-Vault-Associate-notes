@@ -88,10 +88,29 @@ When a client first connects to Vault, it needs to authenticate.
 - **applications** may use **public/private keys** or **tokens** to authenticate. 
 - An authentication request flows through core and into an auth method, which determines if the request is valid and returns a list of associated policies.
 - multiple auth methods can be used at any given time.
- 
 
-**Policies**  
-Policies are named ACL rules. 
+
+**Audit Devices**
+- keeps logs of all requests and responses from/to vault.
+- Formatted using JSON
+- any sensitive info is hashed
+- can have more than one audit Devices
+- recommended to have more than one Audit devices.
+- Vault required **at least one audit device to write** the log before completing the Vault request (if enabled)
+
+
+**Vault Paths**
+- all objects in Vault are path-based.
+- path prefix - tells Vault which component request should be routed.
+- feature should be enabled to get specific paths. e.g. AWS secret should be neabled to get path related to it.
+- /sys path endpoint is default backend for System.
+- Permissions/policies are granted based on path
+- Some secret engines/AuthMethods has predefined paths under the mountpoint.
+e.g. database secret path has
+    - database/config/config name -> connection info
+
+
+**Policies** - Policies are named ACL rules. 
     - the **"root"** policy is built-in and *permits access to all resources*. 
     - can create any number of named policies with fine-grained control over paths. 
     - Vault operates exclusively in a whitelist mode, meaning that unless access is explicitly granted via a policy, the action is not allowed. *this makes management of permission easy*
@@ -101,8 +120,8 @@ Policies are named ACL rules.
     
 
 **Lease management**  
-is critical, as it allows expired client tokens or secrets to be revoked automatically. 
-Additionally, Vault handles certain partial failure cases by using write ahead logging with a rollback manager. 
+- is critical, as it allows expired client tokens or secrets to be revoked automatically. 
+- Additionally, Vault handles certain partial failure cases by using write ahead logging with a rollback manager. 
 
 
 #### Continue to topic 2 [Security of Data in vault](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/DataSecurity)
