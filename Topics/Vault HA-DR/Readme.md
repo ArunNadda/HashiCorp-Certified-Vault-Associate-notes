@@ -17,7 +17,7 @@
 - Vault is generally front-ended with a LB or Consul
 - LB is for HA not LB. ( cos only single Acitve nodes handles all traffic)
 - Health checks on LB can determine which node is the active node.
-- curl https://<ip>:8200/v1/sys/health
+- curl https://ipaddr:8200/v1/sys/health
   - HTTP response 200 = initialized, unsealed and active.
   - HTTP Respnse 429 = unsealed and standby
   - HTTP 503 - sealed.
