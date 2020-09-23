@@ -19,4 +19,4 @@ These are the notes I used to prepare for Vault Associate exam.
 8. [Vault Auditing](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20Auditing)
 9. [Vault HA/DR](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Vault%20HA-DR)
 10. [Enterprise Vault Features](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Enterprise%20Vault%20Features)
-11. [**Bonus - Exam practice questions**](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Topics/Bonus%20-%20Exam%20practice%20questions)
+
