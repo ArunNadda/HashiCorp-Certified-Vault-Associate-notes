@@ -1,4 +1,4 @@
-## HashiCorp-Certified-Vault-Associate-notes-learning-material
+## HashiCorp-Certified-Vault-Associate-notes
 These are the notes I used to prepare for Vault Associate exam.
 
 ### 1. [Learning Resources](https://github.com/ArunNadda/HashiCorp-Certified-Vault-Associate-notes-learning-material/tree/master/Resources).
